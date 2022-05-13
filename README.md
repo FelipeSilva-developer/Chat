@@ -1,2 +1,2 @@
 # Chat_Servidor
- Aplicação de chat feita em C#
+ Criação de um chat utilizando o protocolo TCP/IP

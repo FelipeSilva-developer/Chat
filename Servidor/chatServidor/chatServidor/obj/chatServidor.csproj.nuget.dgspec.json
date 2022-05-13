@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\Chat\\Servidor\\chatServidor\\chatServidor\\chatServidor.csproj": {}
+    "C:\\Users\\lipes\\OneDrive\\Documents\\Projetoss\\Chat\\Servidor\\chatServidor\\chatServidor\\chatServidor.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\Chat\\Servidor\\chatServidor\\chatServidor\\chatServidor.csproj": {
+    "C:\\Users\\lipes\\OneDrive\\Documents\\Projetoss\\Chat\\Servidor\\chatServidor\\chatServidor\\chatServidor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\Chat\\Servidor\\chatServidor\\chatServidor\\chatServidor.csproj",
+        "projectUniqueName": "C:\\Users\\lipes\\OneDrive\\Documents\\Projetoss\\Chat\\Servidor\\chatServidor\\chatServidor\\chatServidor.csproj",
         "projectName": "chatServidor",
-        "projectPath": "C:\\Projetos\\Chat\\Servidor\\chatServidor\\chatServidor\\chatServidor.csproj",
-        "packagesPath": "C:\\Users\\felipe.santana\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\Chat\\Servidor\\chatServidor\\chatServidor\\obj\\",
+        "projectPath": "C:\\Users\\lipes\\OneDrive\\Documents\\Projetoss\\Chat\\Servidor\\chatServidor\\chatServidor\\chatServidor.csproj",
+        "packagesPath": "C:\\Users\\lipes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lipes\\OneDrive\\Documents\\Projetoss\\Chat\\Servidor\\chatServidor\\chatServidor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\felipe.santana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lipes\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

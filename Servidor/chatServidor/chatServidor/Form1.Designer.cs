@@ -32,13 +32,15 @@
             this.txtServidorIP = new System.Windows.Forms.TextBox();
             this.btnAtendimento = new System.Windows.Forms.Button();
             this.txtLog = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblServidorIP
             // 
             this.lblServidorIP.AutoSize = true;
             this.lblServidorIP.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblServidorIP.Location = new System.Drawing.Point(12, 13);
+            this.lblServidorIP.Location = new System.Drawing.Point(82, 29);
             this.lblServidorIP.Name = "lblServidorIP";
             this.lblServidorIP.Size = new System.Drawing.Size(93, 19);
             this.lblServidorIP.TabIndex = 0;
@@ -48,9 +50,9 @@
             // 
             this.txtServidorIP.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtServidorIP.Location = new System.Drawing.Point(111, 9);
+            this.txtServidorIP.Location = new System.Drawing.Point(181, 25);
             this.txtServidorIP.Name = "txtServidorIP";
-            this.txtServidorIP.Size = new System.Drawing.Size(311, 23);
+            this.txtServidorIP.Size = new System.Drawing.Size(241, 23);
             this.txtServidorIP.TabIndex = 1;
             // 
             // btnAtendimento
@@ -58,7 +60,7 @@
             this.btnAtendimento.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAtendimento.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btnAtendimento.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnAtendimento.Location = new System.Drawing.Point(280, 38);
+            this.btnAtendimento.Location = new System.Drawing.Point(280, 55);
             this.btnAtendimento.Name = "btnAtendimento";
             this.btnAtendimento.Size = new System.Drawing.Size(142, 23);
             this.btnAtendimento.TabIndex = 2;
@@ -68,6 +70,8 @@
             // 
             // txtLog
             // 
+            this.txtLog.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtLog.Location = new System.Drawing.Point(12, 84);
             this.txtLog.Multiline = true;
             this.txtLog.Name = "txtLog";
@@ -75,11 +79,23 @@
             this.txtLog.Size = new System.Drawing.Size(410, 300);
             this.txtLog.TabIndex = 3;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::chatServidor.Properties.Resources.logo;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(64, 64);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.PaleTurquoise;
             this.ClientSize = new System.Drawing.Size(434, 411);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtLog);
             this.Controls.Add(this.btnAtendimento);
             this.Controls.Add(this.txtServidorIP);
@@ -89,6 +105,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -100,5 +117,6 @@
         private TextBox txtServidorIP;
         private Button btnAtendimento;
         private TextBox txtLog;
+        private PictureBox pictureBox1;
     }
 }
